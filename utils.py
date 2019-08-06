@@ -2,8 +2,8 @@ from twilio.rest import Client
 import numpy as np
 
 def twilio():
-    account_sid = 'ACc2480559020c2b645e9e735e08e8ccca'#user's unique SID
-    auth_token = '4ef89947554b6eb5aeebd67443f31f52'#user's authentication token
+    account_sid = 'XXXXXXXXXXXXXX'#user's unique SID
+    auth_token = 'XXXXXXXXXXXXXXX'#user's authentication token
     client = Client(account_sid, auth_token)
 
     message = client.messages \
