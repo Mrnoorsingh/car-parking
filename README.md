@@ -7,13 +7,13 @@ To enable SMS alert, Twilio API is utilized to send the SMS on the user's phone
 
 The problem for parking detection can be break down as follows
 
-![alt text](/img/pipeline.png)
+![pipeline](/img/pipeline.png)
  
  ---
  
  ## Example
 
-  Recorded Video   |      SMS Received
+  Recorded Video(Output)   |      SMS Received
 :-----------------:|:-----------------------:
 ![recorded video](/img/park.gif) | ![received SMS](/img/Screenshot%20from%202019-08-07%2002-07-53.png)
 
